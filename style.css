@@ -109,6 +109,18 @@ body {
 .toast.invalid::after {
   background: var(--third-color);
 }
+.footer {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+  width: 90%;
+  font-size: 12px;
+  margin: auto;
+  text-align: center;
+  font-weight: 400;
+  color: black;
+}
 @media (max-width: 480px) {
   .toast {
     width: 250px;
